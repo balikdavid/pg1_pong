@@ -8,12 +8,19 @@
 		<script type="text/javascript" src="js/three.min.js"></script>
 		<script src="js/app.js" type="module"></script>
 
-		<div id='scoreboard'>
-			<h1 id='score'>0:0</h1>
-			<h2 id='wins'> Have 3 wins, become a winner! </h2>
-			<h3 id='controls'>A  left
-			<h3 id='controls'>D  right</h3>
-		</div>
-
+		<div class="scoreboard-container">
+			<div class="score-left">
+			  <p class="team-name">Team 1</p>
+			  <p class="team-score" id="score1">0</p>
+			  <p class="info">A - left <br> D - right <br> new game - reload</p>
+			</div>
+			<div class="score-right">
+			  <p class="team-name" >Team 2</p>
+			  <p class="team-score" id="score2">0</p>
+			  <p class="info">J - left <br> K - right  <br> AI oponent - I</p>
+			</div>
+			</div>
+			
+		
 	</body>
 </html>
